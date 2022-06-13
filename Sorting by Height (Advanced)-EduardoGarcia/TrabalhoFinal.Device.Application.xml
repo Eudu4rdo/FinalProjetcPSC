@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.11.10" runtimeid="3.5.11.30" libversion="3.5.11.0" compiler="3.5.11.30" lmm="3.5.11.30" profile="XSOFT-CODESYS V3.5.11+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="TrabalhoFinal" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="PLC_PRG">
+        <Node name="_AtBack" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtEntry" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtFront" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtLeftEntry" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtLeftExit" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtLoadPosition" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtRigthEntry" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtRigthExit" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtTurnableEntry" type="T_BOOL" access="ReadWrite" />
+        <Node name="_AtUnloadPosition" type="T_BOOL" access="ReadWrite" />
+        <Node name="_EmergencyStop" type="T_BOOL" access="ReadWrite" />
+        <Node name="_HighBox" type="T_BOOL" access="ReadWrite" />
+        <Node name="_LowBox" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Resert" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Start" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Stop" type="T_BOOL" access="ReadWrite" />
+        <Node name="contCaixaAltas" type="T_INT" access="ReadWrite" />
+        <Node name="contCaixaBaixas" type="T_INT" access="ReadWrite" />
+        <Node name="contCaixasTotal" type="T_INT" access="ReadWrite" />
+        <Node name="EntryConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="FeederConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="GreenIndicator" type="T_BOOL" access="ReadWrite" />
+        <Node name="LeftConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Load" type="T_BOOL" access="ReadWrite" />
+        <Node name="RedIndicator" type="T_BOOL" access="ReadWrite" />
+        <Node name="ResetLigth" type="T_BOOL" access="ReadWrite" />
+        <Node name="RightConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartLigth" type="T_BOOL" access="ReadWrite" />
+        <Node name="StopLigth" type="T_BOOL" access="ReadWrite" />
+        <Node name="sup_desligar" type="T_BOOL" access="ReadWrite" />
+        <Node name="sup_emergencia" type="T_BOOL" access="ReadWrite" />
+        <Node name="sup_ligar" type="T_BOOL" access="ReadWrite" />
+        <Node name="sup_pos_rota" type="T_INT" access="ReadWrite" />
+        <Node name="sup_reset" type="T_BOOL" access="ReadWrite" />
+        <Node name="Turn" type="T_BOOL" access="ReadWrite" />
+        <Node name="Unload" type="T_BOOL" access="ReadWrite" />
+        <Node name="YellowIndicator" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
